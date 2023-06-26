@@ -203,11 +203,11 @@ function showResults() {
 		message = 'Ви дали більше половини правильних відповідей';
 	} else { 
 		title = 'Варто спробувати знову';
-		message = 'Поки що у вас меньше половини правильних відповідей';
+		message = 'Поки що у вас менше половини правильних відповідей';
 	}
 
 	//Вывод результата
-	let result = `${score} из ${questions.length}`; 
+	let result = `${score} із ${questions.length}`; 
 
 	const finalMessage = resultsTemplate 
 	                        .replace('%title%', title) 
